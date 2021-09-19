@@ -1,7 +1,7 @@
 clear all;
 clc;
 % Defining Parameters
-n=11;
+n=41;
 L=1;
 rho=1;
 u=1;
@@ -24,7 +24,8 @@ B = zeros(1,n_interior);
 B(1) = -(Gamma + rho*u*delta_x)*phi_o;
 B(n_interior) = -(Gamma*phi_L);
 
-y_exact=phi_analytical(18,L,phi_o,phi_L,X_exact);
+y_exact=phi_analytical(Pe,L,phi_o,phi_L,X_exact);
+% y_exact_50=phi_analytical(50,L,phi_o,phi_L,X_exact);
 y_num = zeros(n,1);
 y_num(1)=phi_o;
 y_num(n)=phi_L;
@@ -33,16 +34,19 @@ y_num(2:n-1)=ThomasAlgo(Ap,Aw,Ae,B);
 f1 = figure();
 plot(X_exact,y_exact);
 hold on;
+% plot(X_exact,y_exact_50);
+% hold on;
 plot(X,y_num);
 title('Plot of \phi vs x');
-legend('Exact for Pe=18', 'Numerical for Pe=50');
+legend('Exact', 'Numerical');
+% legend('Exact for Pe=18', 'Numerical for Pe=50', 'Exact for Pe=50');
 xticks(0:0.1:1);
 yticks(0:0.1:1);
 % set(gca,'XLim',[0 1], 'YLim', [0 1]);
 xlabel('x');
 ylabel('\phi');
 grid on;
-saveas(gcf, sprintf('Uniform_Nodes_%i_Numerical_Pe_%i_Exact_Pe_%i_phi_vs_x.png', n, Pe,18))
+% saveas(gcf, sprintf('Uniform_Nodes_%i_Numerical_Pe_%i_Exact_Pe_%i_phi_vs_x.png', n, Pe,18))
 
 function y=ThomasAlgo(Ap,Aw,Ae,B)
 n=length(Ap);
