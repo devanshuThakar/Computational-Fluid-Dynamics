@@ -19,4 +19,4 @@ The unsteady equation was solved using various numerical methods like the explic
 
 <p align="center"><img src="Images/Contour_implicit_t=10_PartB_Q3.png" width="45%"> </p>
 
-For deatails see the report.pdf file. 
+For more details see the report.pdf file. 
