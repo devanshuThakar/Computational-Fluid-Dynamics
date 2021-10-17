@@ -12,4 +12,4 @@ Two plots computed with a uniform grid of 11 nodes for Pe=50 and Pe=18 are shown
 
 <!-- ![alt-text-1](https://github.com/devanshuThakar/Computational-Fluid-Dynamics/blob/main/Project-1/Images/Uniform_Nodes_11_Pe_18_phi_vs_x.png) | ![alt-text-2](https://github.com/devanshuThakar/Computational-Fluid-Dynamics/blob/main/Project-1/Images/Uniform_Nodes_11_Pe_50_phi_vs_x.png) -->
 
-For deatails see the report.pdf file.
+For details see the report.pdf file.
