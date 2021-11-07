@@ -4,7 +4,7 @@ A 2D scalar transport equation for the transport of quantiy <sub>&phi;</sub> wit
 The velocity field and the boundary conditions are shown in the figure below : 
 <p align="center">
     <img src="Images/Grids.jpg" width="45%">
-    <img src="Images/velocity_field.jpg" width="45%">
+    <!-- <img src="Images/velocity_field.jpg" width="45%"> -->
 </p>
 
 The contour plots of <sub>&phi;</sub> for values of diffusivity constant <sub>&Gamma;</sub>=0.01 and <sub>&Gamma;</sub>=0.001 are shown below : 
