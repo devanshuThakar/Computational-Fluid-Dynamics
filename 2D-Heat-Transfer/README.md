@@ -1,6 +1,7 @@
 ## 2-D Unsteady Heat Conduction problem
 The unsteady 2D heat conduction equation is given as 
-<br> ![Alt-txt](https://github.com/devanshuThakar/Computational-Fluid-Dynamics/blob/main/2D-Heat-Transfer/Images/2D-heat-conduction.jpg) </br>
+<p>
+<img src="Images/2D-heat-conduction.jpg" height="20%" width="20%"> </p>
 
 The above equation was solved for a square plate maintained at constant temperatures at the edges. In otherwords a <i>Dirchilet </i> boundary condition was specified. The second order partial differential equation were discretized using Finite difference method. The discretized PDEs were solved using explicit and ADI methods. 
 
