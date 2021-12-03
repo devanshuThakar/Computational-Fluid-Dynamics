@@ -1,5 +1,5 @@
 ## Scalar transport by Finite Volume
-A 2D scalar transport equation for the transport of quantiy <sub>&phi;</sub> without source term and at steady state conditions was solved using Finite Volume method (FV). The boundary conditions and the velocity field are given. The three popular aprroches of discretizing the convectine term was compared. They are linera interpolation scheme (CDS), upwind difference scheme (UDS) and the QUICK scheme. 
+A 2D scalar transport equation for the transport of quantiy <sub>&phi;</sub> without source term and at steady state conditions was solved using Finite Volume method (FV). The boundary conditions and the velocity field are given. The three popular aprroches of discretizing the convectine term was compared. They are linear interpolation scheme (CDS), upwind difference scheme (UDS) and the QUICK scheme. 
 
 The velocity field and the boundary conditions are shown in the figure below : 
 <p align="center">
