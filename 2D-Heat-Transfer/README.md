@@ -6,7 +6,7 @@ The above equation was solved for a square plate maintained at constant temperat
 
 The time evolution of temperature distributaion over the square plate is shown below : 
 <p align="center">
-    <img src="Images/Temperature-animation.gif" >
+    <img src="Images/Temperature-animation.gif"  width="90%">
 </p>
 
 This work was done as a part of Numerical method course -2020 at IIT-Gandhinagar.
